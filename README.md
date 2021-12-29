@@ -12,11 +12,11 @@
         # minimax soubor-s-cisly.txt
         # minimax 
 
-# VÝSTUP
-    # Informace o nejmenším prvku (hodnota a pozice v poli)
-    # Informace o největším prvku (hodnota a pozice v poli)
-    # Seřazené pole (program musí mít implementaci pro tři různé algoritmy řazení
-    # Uživatel bude v průběhu programu dotázán na volbu algoritmu)
+    # VÝSTUP
+        # Informace o nejmenším prvku (hodnota a pozice v poli)
+        # Informace o největším prvku (hodnota a pozice v poli)
+        # Seřazené pole (program musí mít implementaci pro tři různé algoritmy řazení
+        # Uživatel bude v průběhu programu dotázán na volbu algoritmu)
 
 # Projekt:
     # obsahuje: 
