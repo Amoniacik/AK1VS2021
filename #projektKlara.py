@@ -1,11 +1,25 @@
 #projektKlara
-# 1. Vygeneruj nahodne x,y cisel random
-        # 2. Zadaj v terminale min 5 cisel
+
+
+# Uživatel vloží čísla
         
-x = input('Vložte minimálně 5 celých čísel oddělených mezerami: ')
+x = input('Vložte libovolný počet celých čísel oddělených mezerami: ')
 print("\n")
+
 cisla_uzivatele = x.split()
 print('seznam čísel: ', cisla_uzivatele)
 
 print ("Nejvyšší hodnota v seznamu: ", max(cisla_uzivatele))
 print ("Nejmenší hodnotu v seznamu: ", min(cisla_uzivatele))
+
+
+# 1. Vygeneruj nahodne n cisel random
+
+import random
+nahodna_cisla = random.sample(range(-50, 50), 20)
+print(nahodna_cisla)
+
+print ("Nejvyšší hodnota v seznamu: ", max(nahodna_cisla))
+print ("Nejmenší hodnotu v seznamu: ", min(nahodna_cisla))
+
+
