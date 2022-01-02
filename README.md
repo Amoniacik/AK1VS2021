@@ -1,6 +1,7 @@
 # Repository pre UTB AK1VS 2021 AK1VS2021
     # Riesitelia: Klara Milosicova a Monika Susoliakova
     # Rok: Semester zimny 2021
+    # program sa spusta main.py
 
 # Zadanie projektu: MinMax
 
