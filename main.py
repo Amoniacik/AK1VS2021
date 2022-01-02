@@ -27,6 +27,7 @@ if (choice == 2):
 if (choice == 3):
     print('Nacitaj zo suboru cisla \n')
 
+    #Nacitanie suboru file.txt a rozparsovanie cisel oddelenych ciarkou
     with open("file.txt", "r") as tf:
         cisla = tf.read().split(',')    
 
