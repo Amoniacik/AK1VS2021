@@ -1,20 +1,30 @@
 from sorts import insertion_sort
 
+
+
 def vyber_algorythm(cisla):
+
+    # najdenie min, max cisla v poli "cisla" a najde je v indexu
+
     min_max_index(cisla)
 
-    print('\n\n Zvol cislo')
-    print('1. Bubble Sort')
-    print('2. Merge Sort ')
-    print('3. Insertion Sort ')   
-    print('4. Quick Sort ')   
-    print('5. All Sorts ')   
+    # Uživatel si zvolí sort
+
+    print('Zvol cislo \n')
+    print('1. Bubble Sort  \n')
+    print('2. Merge Sort  \n')
+    print('3. Insertion Sort  \n')   
+    print('4. Quick Sort  \n')   
+    print('5. All Sorts  \n')   
 
     choice = int(input('Enter your choice:'))
-    original_pole = cisla
 
+    # Importování pro práci s časováním
 
     import time
+
+    # Importování funkcí pro sortování
+
     import sorts
 
     if (choice == 1):
@@ -51,6 +61,8 @@ def vyber_algorythm(cisla):
 
         print('Execution time in seconds for:')
 
+        # Výpis danných sortů a jejich času trvání řazení
+
         startTime = time.time()
         sorts.buble_sort(buble_array)
         executionTime = (time.time() - startTime)
@@ -73,13 +85,19 @@ def vyber_algorythm(cisla):
         
         print("Sorted array: " + str(merge_array))
 
+ # Implementační funkce
+
 def min_max_index(cisla_uzivatele):
 
     max_cislo =  max(cisla_uzivatele)
     min_cislo = min(cisla_uzivatele)
 
+     # Určí nejvyšší a nejnižší hodnotu v poli
+
     print ("Nejvyšší hodnota v seznamu: ", max_cislo)
     print ("Nejmenší hodnotu v seznamu: ", min_cislo)
+
+     # Určí pořadí čísla v poli
 
     print ("Index pro nejvyšší hodnota v seznamu: ", cisla_uzivatele.index( max_cislo))
     print ("Index pro nejmensi hodnota v seznamu: ", cisla_uzivatele.index( min_cislo))   
