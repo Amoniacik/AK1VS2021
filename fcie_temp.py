@@ -1,6 +1,7 @@
 from sorts import insertion_sort
 
 def vyber_algorythm(cisla):
+    min_max_index(cisla)
 
     print('Zvol cislo \n')
     print('1. Bubble Sort  \n')
@@ -72,6 +73,14 @@ def vyber_algorythm(cisla):
         
         print("Sorted array: " + str(merge_array))
 
+def min_max_index(cisla_uzivatele):
 
+    max_cislo =  max(cisla_uzivatele)
+    min_cislo = min(cisla_uzivatele)
 
+    print ("Nejvyšší hodnota v seznamu: ", max_cislo)
+    print ("Nejmenší hodnotu v seznamu: ", min_cislo)
+
+    print ("Index pro nejvyšší hodnota v seznamu: ", cisla_uzivatele.index( max_cislo))
+    print ("Index pro nejmensi hodnota v seznamu: ", cisla_uzivatele.index( min_cislo))   
 

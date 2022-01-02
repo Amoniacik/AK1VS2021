@@ -13,6 +13,9 @@ print ("Nejvyšší hodnota v seznamu: ", max(cisla_uzivatele))
 print ("Nejmenší hodnotu v seznamu: ", min(cisla_uzivatele))
 
 
+cisla_uzivatele.index(6) # will return 1
+
+
 # 1. Vygeneruj nahodne n cisel random
 
 # import random
@@ -20,6 +23,6 @@ print ("Nejmenší hodnotu v seznamu: ", min(cisla_uzivatele))
 # print(nahodna_cisla)
 
 # print ("Nejvyšší hodnota v seznamu: ", max(nahodna_cisla))
-# print ("Nejmenší hodnotu v seznamu: ", min(nahodna_cisla))
+#  print ("Nejmenší hodnotu v seznamu: ", min(nahodna_cisla))
 
 
