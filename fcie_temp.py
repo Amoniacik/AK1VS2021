@@ -3,12 +3,12 @@ from sorts import insertion_sort
 def vyber_algorythm(cisla):
     min_max_index(cisla)
 
-    print('Zvol cislo \n')
-    print('1. Bubble Sort  \n')
-    print('2. Merge Sort  \n')
-    print('3. Insertion Sort  \n')   
-    print('4. Quick Sort  \n')   
-    print('5. All Sorts  \n')   
+    print('\n\n Zvol cislo')
+    print('1. Bubble Sort')
+    print('2. Merge Sort ')
+    print('3. Insertion Sort ')   
+    print('4. Quick Sort ')   
+    print('5. All Sorts ')   
 
     choice = int(input('Enter your choice:'))
     original_pole = cisla
