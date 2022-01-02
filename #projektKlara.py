@@ -15,11 +15,11 @@ print ("Nejmenší hodnotu v seznamu: ", min(cisla_uzivatele))
 
 # 1. Vygeneruj nahodne n cisel random
 
-import random
-nahodna_cisla = random.sample(range(-50, 50), 20)
-print(nahodna_cisla)
+# import random
+# nahodna_cisla = random.sample(range(-50, 50), 20)
+# print(nahodna_cisla)
 
-print ("Nejvyšší hodnota v seznamu: ", max(nahodna_cisla))
-print ("Nejmenší hodnotu v seznamu: ", min(nahodna_cisla))
+# print ("Nejvyšší hodnota v seznamu: ", max(nahodna_cisla))
+# print ("Nejmenší hodnotu v seznamu: ", min(nahodna_cisla))
 
 
